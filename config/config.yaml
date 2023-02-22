@@ -1,0 +1,17 @@
+title: test-demo
+releaseEnv: local
+version: "1.0"
+server:
+  local:
+    httpSetting:
+      httpPort: 9090
+      readTimeout: 60
+      writeTimeout: 60
+      runMode: debug
+    remoteSetting:
+      mysqlAddr:
+      mysqlHost: 127.0.0.1
+      mysqlUserName: root
+      mysqlPassWord: 123456
+      mysqlPort: 3306
+      mysqlDatabase: test
